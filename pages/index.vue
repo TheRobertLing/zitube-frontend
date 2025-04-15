@@ -19,7 +19,7 @@ import { Compass } from "lucide-vue-next";
         Learn Chinese through media, one video at a time.
       </p>
 
-      <NuxtLink to="/explore">
+      <NuxtLink to="/about">
         <Button class="cursor-pointer">
           <Compass class="w-4 h-4" />
           Explore Videos
