@@ -1,75 +1,21 @@
-# Nuxt Minimal Starter
+# 15/4/25 Log
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Progress:
 
-## Setup
+- Created all routes that can be statically generated for SEO purposes.
+- Started on video page and category pages.
 
-Make sure to install dependencies:
+Issues:
 
-```bash
-# npm
-npm install
+- Shadcn/vue documentation inconsistent with exported vue files
+  - Temporary fix was made by making use of Reka UI's component for pagination, although for consistency, this should be changed later once the docs update.
+- CSS still looks terrible, need to add green accent to site, and get Tailwind intellisense to cooperate.
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Progress Screenshots:
+![image](./public/progression/home.png)
+![image](./public/progression/contact.png)
+![image](./public/progression/categories.png)
+![image](./public/progression/pagenotfound.png)
+![image](./public/progression/menu.png)
+![image](./public/progression/about1.png)
+![image](./public/progression/about2.png)
