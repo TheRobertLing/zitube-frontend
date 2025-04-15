@@ -10,7 +10,7 @@ import {
 </script>
 
 <template>
-  <div class="mx-auto min-h-screen max-w-3xl px-4 py-12">
+  <main class="min-h-screen px-4 py-4 flex flex-col">
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
@@ -23,10 +23,12 @@ import {
       </BreadcrumbList>
     </Breadcrumb>
 
-    <div class="mt-12 flex items-center justify-center">
+    <!-- Grow to fill the rest and center the form -->
+    <section class="flex grow items-center justify-center">
       <Contactform />
-    </div>
-  </div>
+    </section>
+  </main>
 </template>
+
 
 <style scoped></style>

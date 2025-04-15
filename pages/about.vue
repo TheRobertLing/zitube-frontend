@@ -12,7 +12,7 @@ import gogogo出发咯 from '@/assets/images/gogogo出发咯.png'
 </script>
 
 <template>
-  <div class="mx-auto min-h-screen max-w-3xl px-4 py-12">
+  <main class="min-h-screen px-4 py-4">
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
@@ -20,14 +20,14 @@ import gogogo出发咯 from '@/assets/images/gogogo出发咯.png'
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
-          <BreadcrumbPage href="/about"> About </BreadcrumbPage>
+          <BreadcrumbPage> About </BreadcrumbPage>
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
 
-    <h1 class="mt-8 mb-6 text-center text-4xl font-bold">About ZiTube</h1>
+    <h1 class="mt-8 mb-6 text-4xl font-bold">About ZiTube</h1>
 
-    <p class="mb-10 text-center text-lg text-muted-foreground">
+    <p class="mb-10 text-lg text-muted-foreground">
       ZiTube is a small project created to help people on their Chinese language learning journey by
       offering full translated transcripts complete with vocabulary search and contextual hints for
       videos that span across a large selection of content types. ZiTube also allows users to create
@@ -91,8 +91,8 @@ import gogogo出发咯 from '@/assets/images/gogogo出发咯.png'
       </div>
     </section>
 
-    <figure class="mx-auto mt-10 w-1/2">
-      <img :src="gogogo出发咯" alt="gogogo 出发咯" class="mb-2 rounded-md" />
+    <figure class="ml-auto mr-auto mt-10 w-1/2">
+      <img :src="gogogo出发咯" alt="gogogo 出发咯" class="mb-2 rounded-md ml-auto mr-auto" />
       <figcaption class="text-center text-sm text-muted-foreground">
         Image Source:
         <a
@@ -103,7 +103,7 @@ import gogogo出发咯 from '@/assets/images/gogogo出发咯.png'
         </a>
       </figcaption>
     </figure>
-  </div>
+  </main>
 </template>
 
 <style scoped></style>

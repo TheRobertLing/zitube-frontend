@@ -4,9 +4,9 @@ import { Compass } from "lucide-vue-next";
 </script>
 
 <template>
-  <div>
+  <main>
     <!-- Hero Section -->
-    <div
+    <section
       class="min-h-screen flex flex-col justify-center items-center text-center space-y-6 "
     >
       <h1
@@ -19,19 +19,19 @@ import { Compass } from "lucide-vue-next";
         Learn Chinese through media, one video at a time.
       </p>
 
-      <NuxtLink to="/about">
+      <NuxtLink to="/explore">
         <Button class="cursor-pointer">
           <Compass class="w-4 h-4" />
           Explore Videos
         </Button>
       </NuxtLink>
-    </div>
+    </section>
 
     <!-- Intro to the Site -->
-    <div class="bg-primary">
+    <section class="bg-primary">
 
-    </div>
-  </div>
+    </section>
+  </main>
 </template>
 
 <style scoped>
