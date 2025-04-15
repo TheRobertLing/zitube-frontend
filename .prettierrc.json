@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 100,
+  "tabWidth": 2,
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindFunctions": ["clsx", "cn"],
+  "tailwindPreserveWhitespace": false,
+  "tailwindPreserveDuplicates": false,
+  "tailwindStylesheet": "./assets/css/tailwind.css"
+}
